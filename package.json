@@ -1,0 +1,68 @@
+{
+	"name": "openresty-snippets",
+	"displayName": "Openresty Snippets",
+	"description": "Openresty Snippets",
+	"version": "0.0.1",
+	"icon": "assets/logo.jpg",
+	"publisher": "benemohamed",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/benemohamed/openresty-snippets.git"
+	},
+	"categories": [
+		"Other",
+		"Snippets"
+	],
+	"activationEvents": [
+		"onCommand:openresty-snippets.openDocs"
+	],
+	"main": "./out/extension.js",
+	"galleryBanner": {
+		"color": "#549BFF",
+		"theme": "dark"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "lua",
+				"path": "./snippets/snippets.json"
+			}
+		],
+		"commands": [
+			{
+				"command": "openresty-snippets.openDocs",
+				"title": "Open openresty docs"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorHasSelection",
+					"command": "openresty-snippets.openDocs",
+					"group": "modification"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"build": "vsce package -o benemohamed.openresty-snippets-$npm_package_version.vsix"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.44.0",
+		"@types/glob": "^7.1.1",
+		"@types/node": "^13.11.0",
+		"eslint": "^6.8.0",
+		"@typescript-eslint/parser": "^2.26.0",
+		"@typescript-eslint/eslint-plugin": "^2.26.0",
+		"glob": "^7.1.6",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	}
+}

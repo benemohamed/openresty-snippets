@@ -1,0 +1,1447 @@
+{
+    "nginx OK ": {
+        "prefix": "ngx.ok",
+        "body": [
+            "ngx.OK"
+        ],
+        "description": "Core constants (0)"
+    },
+    "nginx ERROR ": {
+        "prefix": "ngx.error",
+        "body": [
+            "ngx.ERROR"
+        ],
+        "description": "Core constants (-1)"
+    },
+    "nginx AGAIN ": {
+        "prefix": "ngx.again",
+        "body": [
+            "ngx.AGAIN"
+        ],
+        "description": "Core constants (-2)"
+    },
+    "nginx DONE ": {
+        "prefix": "ngx.done",
+        "body": [
+            "ngx.DONE"
+        ],
+        "description": "Core constants (-4)"
+    },
+    "nginx DECLINED ": {
+        "prefix": "ngx.declined",
+        "body": [
+            "ngx.DECLINED"
+        ],
+        "description": "Core constants (-5)"
+    },
+    "nginx HTTP_CONTINUE": {
+        "prefix": "ngx.http_continue",
+        "body": [
+            "ngx.HTTP_CONTINUE"
+        ],
+        "description": "HTTP status constants status code (100)"
+    },
+    "nginx HTTP_SWITCHING_PROTOCOLS": {
+        "prefix": "ngx.http_switching_protocols",
+        "body": [
+            "ngx.HTTP_SWITCHING_PROTOCOLS"
+        ],
+        "description": "HTTP status constants status code (101)"
+    },
+    "nginx HTTP_OK": {
+        "prefix": "ngx.http_ok",
+        "body": [
+            "ngx.HTTP_OK"
+        ],
+        "description": "HTTP status constants status code (200)"
+    },
+    "nginx HTTP_CREATED": {
+        "prefix": "ngx.http_created",
+        "body": [
+            "ngx.HTTP_CREATED"
+        ],
+        "description": "HTTP status constants status code (201)"
+    },
+    "nginx HTTP_ACCEPTED": {
+        "prefix": "ngx.http_accepted",
+        "body": [
+            "ngx.HTTP_ACCEPTED"
+        ],
+        "description": "HTTP status constants status code (202)"
+    },
+    "nginx HTTP_NO_CONTENT": {
+        "prefix": "ngx.http_no_content",
+        "body": [
+            "ngx.HTTP_NO_CONTENT"
+        ],
+        "description": "HTTP status constants status code (204)"
+    },
+    "nginx HTTP_PARTIAL_CONTENT": {
+        "prefix": "ngx.http_partial_content",
+        "body": [
+            "ngx.HTTP_PARTIAL_CONTENT"
+        ],
+        "description": "HTTP status constants status code (206)"
+    },
+    "nginx HTTP_SPECIAL_RESPONSE": {
+        "prefix": "ngx.http_special_response",
+        "body": [
+            "ngx.HTTP_SPECIAL_RESPONSE"
+        ],
+        "description": "HTTP status constants status code (300)"
+    },
+    "nginx HTTP_MOVED_PERMANENTLY": {
+        "prefix": "ngx.http_moved_permanently",
+        "body": [
+            "ngx.HTTP_MOVED_PERMANENTLY"
+        ],
+        "description": "HTTP status constants status code (301)"
+    },
+    "nginx HTTP_MOVED_TEMPORARILY": {
+        "prefix": "ngx.http_moved_temporarily",
+        "body": [
+            "ngx.HTTP_MOVED_TEMPORARILY"
+        ],
+        "description": "HTTP status constants status code (302)"
+    },
+    "nginx HTTP_SEE_OTHER": {
+        "prefix": "ngx.http_see_other",
+        "body": [
+            "ngx.HTTP_SEE_OTHER"
+        ],
+        "description": "HTTP status constants status code (303)"
+    },
+    "nginx HTTP_NOT_MODIFIED": {
+        "prefix": "ngx.http_not_modified",
+        "body": [
+            "ngx.HTTP_NOT_MODIFIED"
+        ],
+        "description": "HTTP status constants status code (304)"
+    },
+    "nginx HTTP_TEMPORARY_REDIRECT": {
+        "prefix": "ngx.http_temporary_redirect",
+        "body": [
+            "ngx.HTTP_TEMPORARY_REDIRECT"
+        ],
+        "description": "HTTP status constants status code (307)"
+    },
+    "nginx HTTP_PERMANENT_REDIRECT": {
+        "prefix": "ngx.http_permanent_redirect",
+        "body": [
+            "ngx.HTTP_PERMANENT_REDIRECT"
+        ],
+        "description": "HTTP status constants status code (308)"
+    },
+    "nginx HTTP_BAD_REQUEST": {
+        "prefix": "ngx.http_bad_request",
+        "body": [
+            "ngx.HTTP_BAD_REQUEST"
+        ],
+        "description": "HTTP status constants status code (400)"
+    },
+    "nginx HTTP_UNAUTHORIZED": {
+        "prefix": "ngx.http_unauthorized",
+        "body": [
+            "ngx.HTTP_UNAUTHORIZED"
+        ],
+        "description": "HTTP status constants status code (401)"
+    },
+    "nginx HTTP_PAYMENT_REQUIRED": {
+        "prefix": "ngx.http_payment_required",
+        "body": [
+            "ngx.HTTP_PAYMENT_REQUIRED"
+        ],
+        "description": "HTTP status constants status code (402)"
+    },
+    "nginx HTTP_FORBIDDEN": {
+        "prefix": "ngx.http_forbidden",
+        "body": [
+            "ngx.HTTP_FORBIDDEN"
+        ],
+        "description": "HTTP status constants status code (403)"
+    },
+    "nginx HTTP_NOT_FOUND": {
+        "prefix": "ngx.http_not_found",
+        "body": [
+            "ngx.HTTP_NOT_FOUND"
+        ],
+        "description": "HTTP status constants status code (404)"
+    },
+    "nginx HTTP_NOT_ALLOWED": {
+        "prefix": "ngx.http_not_allowed",
+        "body": [
+            "ngx.HTTP_NOT_ALLOWED"
+        ],
+        "description": "HTTP status constants status code (405)"
+    },
+    "nginx HTTP_NOT_ACCEPTABLE": {
+        "prefix": "ngx.http_not_acceptable",
+        "body": [
+            "ngx.HTTP_NOT_ACCEPTABLE"
+        ],
+        "description": "HTTP status constants status code (406)"
+    },
+    "nginx HTTP_REQUEST_TIMEOUT": {
+        "prefix": "ngx.http_request_timeout",
+        "body": [
+            "ngx.HTTP_REQUEST_TIMEOUT"
+        ],
+        "description": "HTTP status constants status code (408)"
+    },
+    "nginx HTTP_CONFLICT": {
+        "prefix": "ngx.http_conflict",
+        "body": [
+            "ngx.HTTP_CONFLICT"
+        ],
+        "description": "HTTP status constants status code (409)"
+    },
+    "nginx HTTP_GONE": {
+        "prefix": "ngx.http_gone",
+        "body": [
+            "ngx.HTTP_GONE"
+        ],
+        "description": "HTTP status constants status code (410)"
+    },
+    "nginx HTTP_UPGRADE_REQUIRED": {
+        "prefix": "ngx.http_upgrade_required",
+        "body": [
+            "ngx.HTTP_UPGRADE_REQUIRED"
+        ],
+        "description": "HTTP status constants status code (426)"
+    },
+    "nginx HTTP_TOO_MANY_REQUESTS": {
+        "prefix": "ngx.http_too_many_requests",
+        "body": [
+            "ngx.HTTP_TOO_MANY_REQUESTS"
+        ],
+        "description": "HTTP status constants status code (429)"
+    },
+    "nginx HTTP_CLOSE": {
+        "prefix": "ngx.http_close",
+        "body": [
+            "ngx.HTTP_CLOSE"
+        ],
+        "description": "HTTP status constants status code (444)"
+    },
+    "nginx HTTP_ILLEGAL": {
+        "prefix": "ngx.http_illegal",
+        "body": [
+            "ngx.HTTP_ILLEGAL"
+        ],
+        "description": "HTTP status constants status code (451)"
+    },
+    "nginx HTTP_INTERNAL_SERVER_ERROR": {
+        "prefix": "ngx.http_internal_server_error",
+        "body": [
+            "ngx.HTTP_INTERNAL_SERVER_ERROR"
+        ],
+        "description": "HTTP status constants status code (500)"
+    },
+    "nginx HTTP_METHOD_NOT_IMPLEMENTED": {
+        "prefix": "ngx.http_method_not_implemented",
+        "body": [
+            "ngx.HTTP_METHOD_NOT_IMPLEMENTED"
+        ],
+        "description": "HTTP status constants status code (501)"
+    },
+    "nginx HTTP_BAD_GATEWAY": {
+        "prefix": "ngx.http_bad_gateway",
+        "body": [
+            "ngx.HTTP_BAD_GATEWAY"
+        ],
+        "description": "HTTP status constants status code (502)"
+    },
+    "nginx HTTP_SERVICE_UNAVAILABLE": {
+        "prefix": "ngx.http_service_unavailable",
+        "body": [
+            "ngx.HTTP_SERVICE_UNAVAILABLE"
+        ],
+        "description": "HTTP status constants status code (503)"
+    },
+    "nginx HTTP_GATEWAY_TIMEOUT": {
+        "prefix": "ngx.http_gateway_timeout",
+        "body": [
+            "ngx.HTTP_GATEWAY_TIMEOUT"
+        ],
+        "description": "HTTP status constants status code (504)"
+    },
+    "nginx HTTP_VERSION_NOT_SUPPORTED": {
+        "prefix": "ngx.http_version_not_supported",
+        "body": [
+            "ngx.HTTP_VERSION_NOT_SUPPORTED"
+        ],
+        "description": "HTTP status constants status code (505)"
+    },
+    "nginx HTTP_INSUFFICIENT_STORAGE": {
+        "prefix": "ngx.http_insufficient_storage",
+        "body": [
+            "ngx.HTTP_INSUFFICIENT_STORAGE"
+        ],
+        "description": "HTTP status constants status code (507)"
+    },
+    "nginx HTTP_GET": {
+        "prefix": "ngx.http_get",
+        "body": [
+            "ngx.HTTP_GET"
+        ],
+        "description": "HTTP method constants (GET)"
+    },
+    "nginx HTTP_HEAD": {
+        "prefix": "ngx.http_head",
+        "body": [
+            "ngx.HTTP_HEAD"
+        ],
+        "description": "HTTP method constants (HEAD)"
+    },
+    "nginx HTTP_PUT": {
+        "prefix": "ngx.http_put",
+        "body": [
+            "ngx.HTTP_PUT"
+        ],
+        "description": "HTTP method constants (PUT)"
+    },
+    "nginx HTTP_POST": {
+        "prefix": "ngx.http_post",
+        "body": [
+            "ngx.HTTP_POST"
+        ],
+        "description": "HTTP method constants (POST)"
+    },
+    "nginx HTTP_DELETE": {
+        "prefix": "ngx.http_delete",
+        "body": [
+            "ngx.HTTP_DELETE"
+        ],
+        "description": "HTTP method constants (DELETE)"
+    },
+    "nginx HTTP_OPTIONS": {
+        "prefix": "ngx.http_options",
+        "body": [
+            "ngx.HTTP_OPTIONS"
+        ],
+        "description": "HTTP method constants (OPTIONS)"
+    },
+    "nginx HTTP_MKCOL": {
+        "prefix": "ngx.http_mkcol",
+        "body": [
+            "ngx.HTTP_MKCOL"
+        ],
+        "description": "HTTP method constants (MKCOL)"
+    },
+    "nginx HTTP_COPY ": {
+        "prefix": "ngx.http_copy",
+        "body": [
+            "ngx.HTTP_COPY"
+        ],
+        "description": "HTTP method constants (copy)"
+    },
+    "nginx HTTP_MOVE ": {
+        "prefix": "ngx.http_move",
+        "body": [
+            "ngx.HTTP_MOVE"
+        ],
+        "description": "HTTP method constants (move)"
+    },
+    "nginx HTTP_PROPFIND ": {
+        "prefix": "ngx.http_propfind",
+        "body": [
+            "ngx.HTTP_PROPFIND"
+        ],
+        "description": "HTTP method constants (propfind)"
+    },
+    "nginx HTTP_PROPPATCH ": {
+        "prefix": "ngx.http_proppatch",
+        "body": [
+            "ngx.HTTP_PROPPATCH"
+        ],
+        "description": "HTTP method constants (proppatch)"
+    },
+    "nginx HTTP_LOCK": {
+        "prefix": "ngx.http_lock",
+        "body": [
+            "ngx.HTTP_LOCK"
+        ],
+        "description": "HTTP method constants (lock)"
+    },
+    "nginx HTTP_UNLOCK ": {
+        "prefix": "ngx.http_unlock",
+        "body": [
+            "ngx.HTTP_UNLOCK"
+        ],
+        "description": "HTTP method constants (unlock)"
+    },
+    "nginx HTTP_PATCH": {
+        "prefix": "ngx.http_patch",
+        "body": [
+            "ngx.HTTP_PATCH"
+        ],
+        "description": "HTTP method constants (patch)"
+    },
+    "nginx HTTP_TRACE": {
+        "prefix": "ngx.http_trace",
+        "body": [
+            "ngx.HTTP_TRACE"
+        ],
+        "description": "HTTP method constants (trace)"
+    },
+    "nginx STDERR": {
+        "prefix": "ngx.stderr",
+        "body": [
+            "ngx.STDERR"
+        ],
+        "description": "Nginx log level constants (stderr)"
+    },
+    "nginx EMERG": {
+        "prefix": "ngx.emerg",
+        "body": [
+            "ngx.EMERG"
+        ],
+        "description": "Nginx log level constants (emerg)"
+    },
+    "nginx ALERT": {
+        "prefix": "ngx.alert",
+        "body": [
+            "ngx.ALERT"
+        ],
+        "description": "Nginx log level constants (alert)"
+    },
+    "nginx CRIT": {
+        "prefix": "ngx.crit",
+        "body": [
+            "ngx.CRIT"
+        ],
+        "description": "Nginx log level constants (crit)"
+    },
+    "nginx ERR": {
+        "prefix": "ngx.err",
+        "body": [
+            "ngx.ERR"
+        ],
+        "description": "Nginx log level constants (err)"
+    },
+    "nginx WARN": {
+        "prefix": "ngx.warn",
+        "body": [
+            "ngx.WARN"
+        ],
+        "description": "Nginx log level constants (warn)"
+    },
+    "nginx NOTICE": {
+        "prefix": "ngx.notice",
+        "body": [
+            "ngx.NOTICE"
+        ],
+        "description": "Nginx log level constants (notice)"
+    },
+    "nginx INFO": {
+        "prefix": "ngx.info",
+        "body": [
+            "ngx.INFO"
+        ],
+        "description": "Nginx log level constants (info)"
+    },
+    "nginx DEBUG": {
+        "prefix": "ngx.debug",
+        "body": [
+            "ngx.DEBUG"
+        ],
+        "description": "Nginx log level constants (debug)"
+    },
+    "coroutine.create": {
+        "prefix": "coroutine.create",
+        "body": [
+            "coroutine.create($1)"
+        ],
+        "description": "Creates a user Lua coroutines with a Lua function, and returns a coroutine object."
+    },
+    "coroutine.resume": {
+        "prefix": "coroutine.resume",
+        "body": [
+            "coroutine.resume($1)"
+        ],
+        "description": "Resumes the executation of a user Lua coroutine object previously yielded or just created."
+    },
+    "coroutine.running": {
+        "prefix": "coroutine.running",
+        "body": [
+            "coroutine.running($1)"
+        ],
+        "description": "Identical to the standard Lua coroutine.running API."
+    },
+    "coroutine.status": {
+        "prefix": "coroutine.status",
+        "body": [
+            "coroutine.status($1)"
+        ],
+        "description": "Identical to the standard Lua coroutine.status API."
+    },
+    "coroutine.wrap": {
+        "prefix": "coroutine.wrap",
+        "body": [
+            "coroutine.wrap($1)"
+        ],
+        "description": "Similar to the standard Lua coroutine.wrap API, but works in the context of the Lua coroutines created by ngx_lua."
+    },
+    "coroutine.yield": {
+        "prefix": "coroutine.yield",
+        "body": [
+            "coroutine.yield($1)"
+        ],
+        "description": "Yields the execution of the current user Lua coroutine."
+    },
+    "nginx arg": {
+        "prefix": "ngx.arg",
+        "body": [
+            "ngx.arg[$1]"
+        ],
+        "description": "When this is used in the context of the set_by_lua* directives"
+    },
+    "nginx balancer": {
+        "prefix": "ngx.balancer",
+        "body": [
+            "ngx.balancer"
+        ],
+        "description": "This is a Lua module that provides a Lua API to allow defining completely dynamic load balancers in pure Lua."
+    },
+    "nginx config.debug": {
+        "prefix": "ngx.config.debug",
+        "body": [
+            "ngx.config.debug()"
+        ],
+        "description": "Returns the Nginx server \"prefix\" path"
+    },
+    "nginx config.nginx_configure": {
+        "prefix": "ngx.config.nginx_configure",
+        "body": [
+            "ngx.config.nginx_configure()"
+        ],
+        "description": "This function returns a string for the NGINX ./configure command's arguments string."
+    },
+    "nginx config.nginx_version": {
+        "prefix": "ngx.config.nginx_version",
+        "body": [
+            "ngx.config.nginx_version"
+        ],
+        "description": "This field take an integral value indicating the version number of the current Nginx core being used. For example, the version number 1.4.3 results in the Lua number 1004003."
+    },
+    "nginx config.nginx lua_version": {
+        "prefix": "ngx.config.ngx_lua_version",
+        "body": [
+            "ngx.config.ngx_lua_version"
+        ],
+        "description": ""
+    },
+    "nginx config.prefix": {
+        "prefix": "ngx.config.prefix",
+        "body": [
+            "ngx.config.prefix()"
+        ],
+        "description": "Returns the Nginx server \"prefix\" path, as determined by the -p command-line option when running the nginx executable, or the path specified by the --prefix command-line option when building Nginx with the ./configure script."
+    },
+    "nginx config.subsystem": {
+        "prefix": "ngx.config.subsystem",
+        "body": [
+            "ngx.config.subsystem"
+        ],
+        "description": "This string field indicates the current NGINX subsystem the current Lua environment is based on. For this module, this field always takes the string value \"http\". For ngx_stream_lua_module, however, this field takes the value \"stream\"."
+    },
+    "nginx cookie_time": {
+        "prefix": "ngx.cookie_time",
+        "body": [
+            "ngx.cookie_time($1)"
+        ],
+        "description": "Returns a formatted string can be used as the cookie expiration time. The parameter sec is the time stamp in seconds (like those returned from ngx.time)."
+    },
+    "nginx crc32_long": {
+        "prefix": "ngx.crc32_long",
+        "body": [
+            "ngx.crc32_long($1)"
+        ],
+        "description": "Calculates the CRC-32 (Cyclic Redundancy Code) digest for the str argument."
+    },
+    "nginx crc32_short": {
+        "prefix": "ngx.crc32_short",
+        "body": [
+            "ngx.crc32_short($1)"
+        ],
+        "description": "Calculates the CRC-32 (Cyclic Redundancy Code) digest for the str argument."
+    },
+    "nginx ctx": {
+        "prefix": "ngx.ctx",
+        "body": [
+            "ngx.ctx.$1"
+        ],
+        "description": "This table can be used to store per-request Lua context data and has a life time identical to the current request (as with the Nginx variables)."
+    },
+    "nginx decode_args": {
+        "prefix": "ngx.decode_args",
+        "body": [
+            "ngx.decode_args($1, $2)"
+        ],
+        "description": "Decodes a URI encoded query-string into a Lua table. This is the inverse function of ngx.encode_args."
+    },
+    "nginx decode_base64": {
+        "prefix": "ngx.decode_base64",
+        "body": [
+            "ngx.decode_base64($1)"
+        ],
+        "description": "Decodes the str argument as a base64 digest to the raw form. Returns nil if str is not well formed."
+    },
+    "nginx encode_args": {
+        "prefix": "ngx.encode_args",
+        "body": [
+            "ngx.encode_args($1)"
+        ],
+        "description": "Encode the Lua table to a query args string according to the URI encoded rules."
+    },
+    "nginx encode_base64": {
+        "prefix": "ngx.encode_base64",
+        "body": [
+            "ngx.encode_base64($1)"
+        ],
+        "description": "Encodes str to a base64 digest."
+    },
+    "nginx eof": {
+        "prefix": "ngx.eof",
+        "body": [
+            "ngx.eof()"
+        ],
+        "description": "Explicitly specify the end of the response output stream. In the case of HTTP 1.1 chunked encoded output, it will just trigger the Nginx core to send out the \"last chunk\"."
+    },
+    "nginx escape_uri": {
+        "prefix": "ngx.escape_uri",
+        "body": [
+            "ngx.escape_uri($1)"
+        ],
+        "description": "Escape str as a URI component."
+    },
+    "nginx exec": {
+        "prefix": "ngx.exec",
+        "body": [
+            "ngx.exec($1, $2)"
+        ],
+        "description": "Does an internal redirect to uri with args and is similar to the echo_exec directive of the echo-nginx-module."
+    },
+    "nginx exit": {
+        "prefix": "ngx.exit",
+        "body": [
+            "ngx.exit($1)"
+        ],
+        "description": "return an error page with custom contents"
+    },
+    "nginx flush": {
+        "prefix": "ngx.flush",
+        "body": [
+            "ngx.flush($1)"
+        ],
+        "description": "Flushes response output to the client."
+    },
+    "nginx get_phase": {
+        "prefix": "ngx.get_phase",
+        "body": [
+            "ngx.get_phase()"
+        ],
+        "description": "This API was first introduced in the v0.5.10 release."
+    },
+    "nginx header.HEADER": {
+        "prefix": "ngx.header.header",
+        "body": [
+            "ngx.header.$1"
+        ],
+        "description": "The header names are matched case-insensitively."
+    },
+    "nginx headers_sent": {
+        "prefix": "ngx.headers_sent",
+        "body": [
+            "ngx.headers_sent"
+        ],
+        "description": "This API was first introduced in ngx_lua v0.3.1rc6."
+    },
+    "nginx hmac_sha1": {
+        "prefix": "ngx.hmac_sha1",
+        "body": [
+            "ngx.hmac_sha1($1, $2)"
+        ],
+        "description": "Computes the HMAC-SHA1 digest of the argument str and turns the result using the secret key <secret_key>."
+    },
+    "nginx http_time": {
+        "prefix": "ngx.http_time",
+        "body": [
+            "ngx.http_time($1)"
+        ],
+        "description": "Returns a formated string can be used as the http header time (for example, being used in Last-Modified header). The parameter sec is the time stamp in seconds (like those returned from ngx.time)."
+    },
+    "nginx is_subrequest": {
+        "prefix": "ngx.is_subrequest",
+        "body": [
+            "ngx.is_subrequest"
+        ],
+        "description": "Returns true if the current request is an nginx subrequest, or false otherwise."
+    },
+    "nginx localtime": {
+        "prefix": "ngx.localtime",
+        "body": [
+            "ngx.localtime()"
+        ],
+        "description": "Returns the current time stamp (in the format yyyy-mm-dd hh:mm:ss) of the nginx cached time (no syscall involved unlike Lua's os.date function)."
+    },
+    "nginx location.capture": {
+        "prefix": "ngx.location.capture",
+        "body": [
+            "ngx.location.capture"
+        ],
+        "description": ""
+    },
+    "nginx location.capture_multi": {
+        "prefix": "ngx.location.capture_multi",
+        "body": [
+            "ngx.location.capture_multi($1, $2)"
+        ],
+        "description": ""
+    },
+    "nginx log": {
+        "prefix": "ngx.log",
+        "body": [
+            "ngx.log($1)"
+        ],
+        "description": "Log arguments concatenated to error.log with the given logging level."
+    },
+    "nginx md5": {
+        "prefix": "ngx.md5",
+        "body": [
+            "ngx.md5($1)"
+        ],
+        "description": "Returns the hexadecimal representation of the MD5 digest of the str argument."
+    },
+    "nginx md5_bin": {
+        "prefix": "ngx.md5_bin",
+        "body": [
+            "ngx.md5_bin($1)"
+        ],
+        "description": "Returns the binary form of the MD5 digest of the str argument."
+    },
+    "nginx now": {
+        "prefix": "ngx.now",
+        "body": [
+            "ngx.now()"
+        ],
+        "description": "Returns a floating-point number for the elapsed time in seconds (including milliseconds as the decimal part) from the epoch for the current time stamp from the nginx cached time (no syscall involved unlike Lua's date library)."
+    },
+    "nginx ocsp": {
+        "prefix": "ngx.ocsp",
+        "body": [
+            "ngx.ocsp"
+        ],
+        "description": "This Lua module provides API to perform OCSP queries, OCSP response validations, and OCSP stapling planting."
+    },
+    "nginx on_abort": {
+        "prefix": "ngx.on_abort",
+        "body": [
+            "ngx.on_abort($1)"
+        ],
+        "description": "Registers a user Lua function as the callback which gets called automatically when the client closes the (downstream) connection prematurely."
+    },
+    "nginx parse_http_time": {
+        "prefix": "ngx.parse_http_time",
+        "body": [
+            "ngx.parse_http_time($1)"
+        ],
+        "description": "Parse the http time string (as returned by ngx.http_time) into seconds. Returns the seconds or nil if the input string is in bad forms."
+    },
+    "nginx print": {
+        "prefix": "ngx.print",
+        "body": [
+            "ngx.print($1)"
+        ],
+        "description": "Writes argument values into the nginx error.log file with the ngx.NOTICE log level."
+    },
+    "nginx quote_sql_str": {
+        "prefix": "ngx.quote_sql_str",
+        "body": [
+            "ngx.quote_sql_str"
+        ],
+        "description": "Returns a quoted SQL string literal according to the MySQL quoting rules."
+    },
+    "nginx re.find": {
+        "prefix": "ngx.re.find",
+        "body": [
+            "ngx.re.find($1, $2, $3)"
+        ],
+        "description": "Similar to ngx.re.match but only returns the beginning index (from) and end index (to) of the matched substring. The returned indexes are 1-based and can be fed directly into the string.sub API function to obtain the matched substring."
+    },
+    "nginx re.gmatch": {
+        "prefix": "ngx.re.gmatch",
+        "body": [
+            "ngx.re.gmatch($1, $2, $3)"
+        ],
+        "description": "Similar to ngx.re.match, but returns a Lua iterator instead, so as to let the user programmer iterate all the matches over the <subject> string argument with the PCRE regex."
+    },
+    "nginx re.gsub": {
+        "prefix": "ngx.re.gsub($1, $2, $3)",
+        "body": [
+            "ngx.re.gsub"
+        ],
+        "description": "Just like ngx.re.sub, but does global substitution."
+    },
+    "nginx re.match": {
+        "prefix": "ngx.re.match",
+        "body": [
+            "ngx.re.match($1, $2, $3)"
+        ],
+        "description": "Matches the subject string using the Perl compatible regular expression regex with the optional options."
+    },
+    "nginx re.sub": {
+        "prefix": "ngx.re.sub",
+        "body": [
+            "ngx.re.sub($1, $2, $3)"
+        ],
+        "description": "Substitutes the first match of the Perl compatible regular expression regex on the subject argument string with the string or function argument replace. The optional options argument has exactly the same meaning as in ngx.re.match."
+    },
+    "nginx redirect": {
+        "prefix": "ngx.redirect",
+        "body": [
+            "ngx.redirect($1, $2)"
+        ],
+        "description": "Issue an HTTP 301 or 302 redirection to uri."
+    },
+    "nginx req.append_body": {
+        "prefix": "ngx.req.append_body",
+        "body": [
+            "ngx.req.append_body($1)"
+        ],
+        "description": "Append new data chunk specified by the data_chunk argument onto the existing request body created by the ngx.req.init_body call."
+    },
+    "nginx req.clear_header": {
+        "prefix": "ngx.req.clear_header",
+        "body": [
+            "ngx.req.clear_header($1)"
+        ],
+        "description": "Clears the current request's request header named header_name. None of the current request's existing subrequests will be affected but subsequently initiated subrequests will inherit the change by default."
+    },
+    "nginx req.discard_body": {
+        "prefix": "ngx.req.discard_body",
+        "body": [
+            "ngx.req.discard_body()"
+        ],
+        "description": "Explicitly discard the request body, i.e., read the data on the connection and throw it away immediately (without using the request body by any means)."
+    },
+    "nginx req.finish_body": {
+        "prefix": "ngx.req.finish_body",
+        "body": [
+            "ngx.req.finish_body()"
+        ],
+        "description": "Completes the construction process of the new request body created by the ngx.req.init_body and ngx.req.append_body calls."
+    },
+    "nginx req.get_body_data": {
+        "prefix": "ngx.req.get_body_data",
+        "body": [
+            "ngx.req.get_body_data()"
+        ],
+        "description": "Retrieves in-memory request body data. It returns a Lua string rather than a Lua table holding all the parsed query arguments. Use the ngx.req.get_post_args function instead if a Lua table is required."
+    },
+    "nginx req.get_body_file": {
+        "prefix": "ngx.req.get_body_file",
+        "body": [
+            "ngx.req.get_body_file()"
+        ],
+        "description": "Retrieves the file name for the in-file request body data. Returns nil if the request body has not been read or has been read into memory."
+    },
+    "nginx req.get_headers": {
+        "prefix": "ngx.req.get_headers",
+        "body": [
+            "ngx.req.get_headers()"
+        ],
+        "description": "Returns a Lua table holding all the current request headers."
+    },
+    "nginx req.get_method": {
+        "prefix": "ngx.req.get_method",
+        "body": [
+            "ngx.req.get_method()"
+        ],
+        "description": "Retrieves the current request's request method name. Strings like \"GET\" and \"POST\" are returned instead of numerical method constants."
+    },
+    "nginx req.get_post_args": {
+        "prefix": "ngx.req.get_post_args",
+        "body": [
+            "ngx.req.get_post_args()"
+        ],
+        "description": "Returns a Lua table holding all the current request POST query arguments (of the MIME type application/x-www-form-urlencoded). Call ngx.req.read_body to read the request body first or turn on the lua_need_request_body directive to avoid errors."
+    },
+    "nginx req.get_uri_args": {
+        "prefix": "ngx.req.get_uri_args",
+        "body": [
+            "ngx.req.get_uri_args()"
+        ],
+        "description": "Returns a Lua table holding all the current request URL query arguments."
+    },
+    "nginx req.http_version": {
+        "prefix": "ngx.req.http_version",
+        "body": [
+            "ngx.req.http_version()"
+        ],
+        "description": "Returns the HTTP version number for the current request as a Lua number."
+    },
+    "nginx req.init_body": {
+        "prefix": "ngx.req.init_body",
+        "body": [
+            "ngx.req.init_body($1)"
+        ],
+        "description": "Creates a new blank request body for the current request and inializes the buffer for later request body data writing via the ngx.req.append_body and ngx.req.finish_body APIs."
+    },
+    "nginx req.is_internal": {
+        "prefix": "ngx.req.is_internal",
+        "body": [
+            "ngx.req.is_internal()"
+        ],
+        "description": "Returns a boolean indicating whether the current request is an \"internal request\", i.e., a request initiated from inside the current nginx server instead of from the client side."
+    },
+    "nginx req.raw_header": {
+        "prefix": "ngx.req.raw_header",
+        "body": [
+            "ngx.req.raw_header()"
+        ],
+        "description": "Returns the original raw HTTP protocol header received by the Nginx server."
+    },
+    "nginx req.read_body": {
+        "prefix": "ngx.req.read_body",
+        "body": [
+            "ngx.req.read_body()"
+        ],
+        "description": "Reads the client request body synchronously without blocking the Nginx event loop."
+    },
+    "nginx req.set_body_data": {
+        "prefix": "ngx.req.set_body_data",
+        "body": [
+            "ngx.req.set_body_data($1)"
+        ],
+        "description": "Set the current request's request body using the in-memory data specified by the data argument."
+    },
+    "nginx req.set_body_file": {
+        "prefix": "ngx.req.set_body_file",
+        "body": [
+            "ngx.req.set_body_file($1, $2)"
+        ],
+        "description": "Set the current request's request body using the in-file data specified by the file_name argument."
+    },
+    "nginx req.set_header": {
+        "prefix": "ngx.req.set_header",
+        "body": [
+            "ngx.req.set_header($1, $2)"
+        ],
+        "description": "Set the current request's request header named header_name to value header_value, overriding any existing ones."
+    },
+    "nginx req.set_method": {
+        "prefix": "ngx.req.set_method",
+        "body": [
+            "ngx.req.set_method($1)"
+        ],
+        "description": "Overrides the current request's request method with the method_id argument. Currently only numerical method constants are supported, like ngx.HTTP_POST and ngx.HTTP_GET."
+    },
+    "nginx req.set_uri": {
+        "prefix": "ngx.req.set_uri",
+        "body": [
+            "ngx.req.set_uri($1, $2)"
+        ],
+        "description": "Rewrite the current request's (parsed) URI by the uri argument. The uri argument must be a Lua string and cannot be of zero length, or a Lua exception will be thrown."
+    },
+    "nginx req.set_uri_args": {
+        "prefix": "ngx.req.set_uri_args",
+        "body": [
+            "ngx.req.set_uri_args($1)"
+        ],
+        "description": "Rewrite the current request's URI query arguments by the args argument. The args argument can be either a Lua string, as in"
+    },
+    "nginx req.socket": {
+        "prefix": "ngx.req.socket",
+        "body": [
+            "ngx.req.socket()"
+        ],
+        "description": "Returns a read-only cosocket object that wraps the downstream connection. Only receive and receiveuntil methods are supported on this object."
+    },
+    "nginx req.start_time": {
+        "prefix": "ngx.req.start_time",
+        "body": [
+            "ngx.req.start_time()"
+        ],
+        "description": "Returns a floating-point number representing the timestamp (including milliseconds as the decimal part) when the current request was created."
+    },
+    "nginx resp.get_headers": {
+        "prefix": "ngx.resp.get_headers",
+        "body": [
+            "ngx.resp.get_headers()"
+        ],
+        "description": "Returns a Lua table holding all the current request headers."
+    },
+    "nginx say": {
+        "prefix": "ngx.say",
+        "body": [
+            "ngx.say($1)"
+        ],
+        "description": "Just as ngx.print but also emit a trailing newline."
+    },
+    "nginx semaphore": {
+        "prefix": "ngx.semaphore",
+        "body": [
+            "local semaphore = require \"ngx.semaphore\""
+        ],
+        "description": "This Lua module does not ship with this ngx_lua module itself rather it is shipped with the lua-resty-core library."
+    },
+    "nginx send_headers": {
+        "prefix": "ngx.send_headers",
+        "body": [
+            "ngx.send_headers()"
+        ],
+        "description": "Explicitly send out the response headers."
+    },
+    "nginx sha1_bin": {
+        "prefix": "ngx.sha1_bin",
+        "body": [
+            "ngx.sha1_bin()"
+        ],
+        "description": "Returns the binary form of the SHA-1 digest of the str argument."
+    },
+    "nginx shared.DICT": {
+        "prefix": "ngx.shared.dict",
+        "body": [
+            "ngx.shared.DICT[$1]"
+        ],
+        "description": "Fetching the shm-based Lua dictionary object for the shared memory zone named DICT defined by the lua_shared_dict directive."
+    },
+    "nginx shared.DICT.add": {
+        "prefix": "ngx.shared.dict.add",
+        "body": [
+            "ngx.shared.DICT.add($1, $2, $3, $4)"
+        ],
+        "description": "Just like the set method, but only stores the key-value pair into the dictionary ngx.shared.DICT if the key does not exist."
+    },
+    "nginx shared.DICT.capacity": {
+        "prefix": "ngx.shared.dict.capacity",
+        "body": [
+            "require \"resty.core.shdict\"",
+            "local cats = ngx.shared.cats",
+            "local capacity_bytes = cats:capacity()"
+        ],
+        "description": "Retrieves the capacity in bytes for the shm-based dictionary ngx.shared.DICT declared with the lua_shared_dict directive."
+    },
+    "nginx shared.DICT.delete": {
+        "prefix": "ngx.shared.dict.delete",
+        "body": [
+            "ngx.shared.DICT.delete($1)"
+        ],
+        "description": "Unconditionally removes the key-value pair from the shm-based dictionary ngx.shared.DICT."
+    },
+    "nginx shared.DICT.expire": {
+        "prefix": "ngx.shared.dict.expire",
+        "body": [
+            "ngx.shared.DICT.expire"
+        ],
+        "description": "Updates the exptime (in second) of a key-value pair in the shm-based dictionary ngx.shared.DICT. Returns a boolean indicating success if the operation completes or nil and an error message otherwise."
+    },
+    "nginx shared.DICT.flush_all": {
+        "prefix": "ngx.shared.dict.flush_all",
+        "body": [
+            "ngx.shared.DICT.flush_all()"
+        ],
+        "description": "Flushes out all the items in the dictionary. This method does not actuall free up all the memory blocks in the dictionary but just marks all the existing items as expired."
+    },
+    "nginx shared.DICT.flush_expired": {
+        "prefix": "ngx.shared.dict.flush_expired",
+        "body": [
+            "ngx.shared.DICT.flush_expired($1)"
+        ],
+        "description": "Flushes out the expired items in the dictionary, up to the maximal number specified by the optional max_count argument. When the max_count argument is given 0 or not given at all, then it means unlimited. Returns the number of items that have actually been flushed."
+    },
+    "nginx shared.DICT.free_space": {
+        "prefix": "ngx.shared.dict.free_space",
+        "body": [
+            "ngx.shared.DICT.free_space()"
+        ],
+        "description": "Retrieves the free page size in bytes for the shm-based dictionary ngx.shared.DICT."
+    },
+    "nginx shared.DICT.get": {
+        "prefix": "ngx.shared.dict.get",
+        "body": [
+            "ngx.shared.DICT.get($1)"
+        ],
+        "description": "Retrieving the value in the dictionary ngx.shared.DICT for the key key. If the key does not exist or has expired, then nil will be returned."
+    },
+    "nginx shared.DICT.get_keys": {
+        "prefix": "ngx.shared.dict.get_keys",
+        "body": [
+            "ngx.shared.DICT.get_keys($1)"
+        ],
+        "description": "Fetch a list of the keys from the dictionary, up to <max_count>."
+    },
+    "nginx shared.DICT.get_stale": {
+        "prefix": "ngx.shared.dict.get_stale",
+        "body": [
+            "ngx.shared.DICT.get_stale($1)"
+        ],
+        "description": "Returns a 3rd value, stale, indicating whether the key has expired or not."
+    },
+    "nginx shared.DICT.incr": {
+        "prefix": "ngx.shared.dict.incr",
+        "body": [
+            "ngx.shared.DICT.incr($1 ,$2, $3, $4)"
+        ],
+        "description": "Increments the (numerical) value for key in the shm-based dictionary ngx.shared.DICT by the step value value. Returns the new resulting number if the operation is successfully completed or nil and an error message otherwise."
+    },
+    "nginx shared.DICT.llen": {
+        "prefix": "ngx.shared.dict.llen",
+        "body": [
+            "ngx.shared.DICT.llen($1)"
+        ],
+        "description": "Returns the number of elements in the list named key in the shm-based dictionary ngx.shared.DICT."
+    },
+    "nginx shared.DICT.lpop": {
+        "prefix": "ngx.shared.dict.lpop",
+        "body": [
+            "ngx.shared.DICT.lpop($1)"
+        ],
+        "description": "Removes and returns the first element of the list named key in the shm-based dictionary ngx.shared.DICT."
+    },
+    "nginx shared.DICT.lpush": {
+        "prefix": "ngx.shared.dict.lpush",
+        "body": [
+            "ngx.shared.DICT.lpush($1, $2)"
+        ],
+        "description": "Inserts the specified (numerical or string) value at the head of the list named key in the shm-based dictionary ngx.shared.DICT. Returns the number of elements in the list after the push operation."
+    },
+    "nginx shared.DICT.replace": {
+        "prefix": "ngx.shared.dict.replace",
+        "body": [
+            "ngx.shared.DICT.replace($1 ,$2, $3, $4)"
+        ],
+        "description": "Just like the set method, but only stores the key-value pair into the dictionary ngx.shared.DICT if the key does exist."
+    },
+    "nginx shared.DICT.rpop": {
+        "prefix": "ngx.shared.dict.rpop",
+        "body": [
+            "ngx.shared.DICT.rpop($1)"
+        ],
+        "description": "Removes and returns the last element of the list named key in the shm-based dictionary ngx.shared.DICT."
+    },
+    "nginx shared.DICT.rpush": {
+        "prefix": "ngx.shared.dict.rpush",
+        "body": [
+            "ngx.shared.DICT.rpush($1, $2)"
+        ],
+        "description": "Similar to the lpush method, but inserts the specified (numerical or string) value at the tail of the list named key."
+    },
+    "nginx shared.DICT.safe_add": {
+        "prefix": "ngx.shared.dict.safe_add",
+        "body": [
+            "ngx.shared.DICT.safe_add($1 ,$2, $3, $4)"
+        ],
+        "description": "Similar to the add method, but never overrides the (least recently used) unexpired items in the store when running out of storage in the shared memory zone. In this case, it will immediately return nil and the string \"no memory\"."
+    },
+    "nginx shared.DICT.safe_set": {
+        "prefix": "ngx.shared.dict.safe_set",
+        "body": [
+            "ngx.shared.DICT.safe_set($1 ,$2, $3, $4)"
+        ],
+        "description": "Similar to the set method, but never overrides the (least recently used) unexpired items in the store when running out of storage in the shared memory zone. In this case, it will immediately return nil and the string \"no memory\"."
+    },
+    "nginx shared.DICT.set": {
+        "prefix": "ngx.shared.dict.set",
+        "body": [
+            "ngx.shared.DICT.set($1 ,$2, $3, $4)"
+        ],
+        "description": "Unconditionally sets a key-value pair into the shm-based dictionary ngx.shared.DICT. Returns three values:"
+    },
+    "nginx shared.DICT.ttl": {
+        "prefix": "ngx.shared.dict.ttl",
+        "body": [
+            "ngx.shared.DICT.ttl($1)"
+        ],
+        "description": "Retrieves the remaining TTL (time-to-live in seconds) of a key-value pair in the shm-based dictionary ngx.shared.DICT. Returns the TTL as a number if the operation is successfully completed or nil and an error message otherwise."
+    },
+    "nginx sleep": {
+        "prefix": "ngx.sleep",
+        "body": [
+            "ngx.sleep($1)"
+        ],
+        "description": "Sleeps for the specified seconds without blocking. One can specify time resolution up to 0.001 seconds (i.e., one milliseconds)."
+    },
+    "nginx socket.connect": {
+        "prefix": "ngx.socket.connect",
+        "body": [
+            "ngx.socket.connect($1, $2)"
+        ],
+        "description": "This function is a shortcut for combining ngx.socket.tcp() and the connect() method call in a single operation"
+    },
+    "nginx socket.stream": {
+        "prefix": "ngx.socket.stream",
+        "body": [
+            "ngx.socket.stream()"
+        ],
+        "description": "Just an alias to ngx.socket.tcp. If the stream-typed cosocket may also connect to a unix domain socket, then this API name is preferred."
+    },
+    "nginx socket.tcp": {
+        "prefix": "ngx.socket.tcp",
+        "body": [
+            "ngx.socket.tcp()"
+        ],
+        "description": "Creates and returns a TCP or stream-oriented unix domain socket object (also known as one type of the \"cosocket\" objects)."
+    },
+    "nginx socket.udp": {
+        "prefix": "ngx.socket.udp",
+        "body": [
+            "ngx.socket.udp()"
+        ],
+        "description": "Creates and returns a UDP or datagram-oriented unix domain socket object (also known as one type of the \"cosocket\" objects)."
+    },
+    "nginx ssl": {
+        "prefix": "ngx.ssl",
+        "body": [
+            "ngx.ssl"
+        ],
+        "description": "This Lua module provides API functions to control the SSL handshake process in contexts like ssl_certificate_by_lua*."
+    },
+    "nginx status": {
+        "prefix": "ngx.status",
+        "body": [
+            "ngx.status"
+        ],
+        "description": "Read and write the current request's response status. This should be called before sending out the response headers."
+    },
+    "nginx thread.kill": {
+        "prefix": "ngx.thread.kill",
+        "body": [
+            "ngx.thread.kill($1)"
+        ],
+        "description": "Kills a running \"light thread\" created by ngx.thread.spawn. Returns a true value when successful or nil and a string describing the error otherwise."
+    },
+    "nginx thread.spawn": {
+        "prefix": "ngx.thread.spawn",
+        "body": [
+            "ngx.thread.spawn($1, $2 ,$3)"
+        ],
+        "description": "Spawns a new user \"light thread\" with the Lua function func as well as those optional arguments arg1, arg2, and etc. Returns a Lua thread (or Lua coroutine) object represents this \"light thread\"."
+    },
+    "nginx thread.wait": {
+        "prefix": "ngx.thread.wait",
+        "body": [
+            "local wait = ngx.thread.wait",
+            "wait($1)"
+        ],
+        "description": "Waits on one or more child \"light threads\" and returns the results of the first \"light thread\" that terminates (either successfully or with an error)."
+    },
+    "nginx time": {
+        "prefix": "ngx.time",
+        "body": [
+            "ngx.time()"
+        ],
+        "description": "Returns the elapsed seconds from the epoch for the current time stamp from the nginx cached time (no syscall involved unlike Lua's date library)."
+    },
+    "nginx timer.at": {
+        "prefix": "ngx.timer.at",
+        "body": [
+            "ngx.timer.at($1, $2 ,$3, $4)"
+        ],
+        "description": "Creates an Nginx timer with a user callback function as well as optional user arguments."
+    },
+    "nginx timer.every": {
+        "prefix": "ngx.timer.every",
+        "body": [
+            "ngx.timer.every($1, $2 ,$3, $4)"
+        ],
+        "description": "Similar to the ngx.timer.at API function, but"
+    },
+    "nginx timer.pending_count": {
+        "prefix": "ngx.timer.pending_count",
+        "body": [
+            "ngx.timer.pending_count()"
+        ],
+        "description": "Returns the number of pending timers."
+    },
+    "nginx timer.running_count": {
+        "prefix": "ngx.timer.running_count",
+        "body": [
+            "ngx.timer.running_count()"
+        ],
+        "description": "Returns the number of timers currently running."
+    },
+    "nginx today": {
+        "prefix": "ngx.today",
+        "body": [
+            "ngx.today()"
+        ],
+        "description": "Returns current date (in the format yyyy-mm-dd) from the nginx cached time (no syscall involved unlike Lua's date library)."
+    },
+    "nginx unescape_uri": {
+        "prefix": "ngx.unescape_uri",
+        "body": [
+            "ngx.unescape_uri($1)"
+        ],
+        "description": "Unescape str as an escaped URI component."
+    },
+    "nginx update_time": {
+        "prefix": "ngx.update_time",
+        "body": [
+            "ngx.update_time()"
+        ],
+        "description": "Forcibly updates the Nginx current time cache. This call involves a syscall and thus has some overhead, so do not abuse it."
+    },
+    "nginx utctime": {
+        "prefix": "ngx.utctime",
+        "body": [
+            "ngx.utctime()"
+        ],
+        "description": "Returns the current time stamp (in the format yyyy-mm-dd hh:mm:ss) of the nginx cached time (no syscall involved unlike Lua's os.date function)."
+    },
+    "nginx var.VARIABLE": {
+        "prefix": "ngx.var.variable",
+        "body": [
+            "ngx.var.$1"
+        ],
+        "description": "Read and write Nginx variable values."
+    },
+    "nginx worker.count": {
+        "prefix": "ngx.worker.count",
+        "body": [
+            "ngx.worker.count()"
+        ],
+        "description": "Returns the total number of the Nginx worker processes (i.e., the value configured by the worker_processes directive in nginx.conf)."
+    },
+    "nginx worker.exiting": {
+        "prefix": "ngx.worker.exiting",
+        "body": [
+            "ngx.worker.exiting()"
+        ],
+        "description": "This function returns a boolean value indicating whether the current Nginx worker process already starts exiting. Nginx worker process exiting happens on Nginx server quit or configuration reload (aka HUP reload)."
+    },
+    "nginx worker.id": {
+        "prefix": "ngx.worker.id",
+        "body": [
+            "ngx.worker.id()"
+        ],
+        "description": "Returns the ordinal number of the current Nginx worker processes (starting from number 0)."
+    },
+    "nginx worker.pid": {
+        "prefix": "ngx.worker.pid",
+        "body": [
+            "ngx.worker.pid()"
+        ],
+        "description": "This function returns a Lua number for the process ID (PID) of the current Nginx worker process. This API is more efficient than ngx.var.pid and can be used in contexts where the ngx.var.VARIABLE API cannot be used (like init_worker_by_lua)."
+    },
+    "print": {
+        "prefix": "print",
+        "body": [
+            "print($1)"
+        ],
+        "description": "Writes argument values into the nginx error.log file with the ngx.NOTICE log level."
+    },
+    "tcpsock.close": {
+        "prefix": "tcpsock.close",
+        "body": [
+            "tcpsock:close()"
+        ],
+        "description": "Closes the current TCP or stream unix domain socket. It returns the 1 in case of success and returns nil with a string describing the error otherwise."
+    },
+    "tcpsock.connect": {
+        "prefix": "tcpsock.connect",
+        "body": [
+            "tcpsock:connect($1, $2)"
+        ],
+        "description": "Attempts to connect a TCP socket object to a remote server or to a stream unix domain socket file without blocking."
+    },
+    "tcpsock.getreusedtimes": {
+        "prefix": "tcpsock.getreusedtimes",
+        "body": [
+            "tcpsock:getreusedtimes()"
+        ],
+        "description": "This method returns the (successfully) reused times for the current connection. In case of error, it returns nil and a string describing the error."
+    },
+    "tcpsock.receive": {
+        "prefix": "tcpsock.receive",
+        "body": [
+            "tcpsock:receive"
+        ],
+        "description": ""
+    },
+    "tcpsock.receiveuntil": {
+        "prefix": "tcpsock.receiveuntil",
+        "body": [
+            "tcpsock:receiveuntil()"
+        ],
+        "description": "Receives data from the connected socket according to the reading pattern or size."
+    },
+    "tcpsock.send": {
+        "prefix": "tcpsock.send",
+        "body": [
+            "tcpsock:send()"
+        ],
+        "description": "Sends data without blocking on the current TCP or Unix Domain Socket connection."
+    },
+    "tcpsock.setkeepalive": {
+        "prefix": "tcpsock.setkeepalive",
+        "body": [
+            "tcpsock:setkeepalive($1, $2)"
+        ],
+        "description": "Puts the current socket's connection immediately into the cosocket built-in connection pool and keep it alive until other connect method calls request it or the associated maximal idle timeout is expired."
+    },
+    "tcpsock.setoption": {
+        "prefix": "tcpsock.setoption",
+        "body": [
+            "tcpsock:setoption($1, $2)"
+        ],
+        "description": "This function is added for LuaSocket API compatibility and does nothing for now. Its functionality will be implemented in future."
+    },
+    "tcpsock.settimeout": {
+        "prefix": "tcpsock.settimeout",
+        "body": [
+            "tcpsock:settimeout($1)"
+        ],
+        "description": "Set the timeout value in milliseconds for subsequent socket operations (connect, receive, and iterators returned from receiveuntil)."
+    },
+    "tcpsock.settimeouts": {
+        "prefix": "tcpsock.settimeouts",
+        "body": [
+            "tcpsock:settimeouts($1, $2, $3)"
+        ],
+        "description": "Sets the connect timeout thresold, send timeout threshold, and read timeout threshold, respetively, in milliseconds, for subsequent socket operations (connect, send, receive, and iterators returned from receiveuntil)."
+    },
+    "tcpsock.sslhandshake": {
+        "prefix": "tcpsock.sslhandshake",
+        "body": [
+            "tcpsock:sslhandshake($1, $2, $3, $4)"
+        ],
+        "description": "Does SSL/TLS handshake on the currently established connection."
+    },
+    "udpsock.close": {
+        "prefix": "udpsock.close",
+        "body": [
+            "udpsock:close()"
+        ],
+        "description": "Closes the current UDP or datagram unix domain socket. It returns the 1 in case of success and returns nil with a string describing the error otherwise."
+    },
+    "udpsock.receive": {
+        "prefix": "udpsock.receive",
+        "body": [
+            "udpsock:receive($1)"
+        ],
+        "description": "Receives data from the UDP or datagram unix domain socket object with an optional receive buffer size argument, size"
+    },
+    "udpsock.send": {
+        "prefix": "udpsock.send",
+        "body": [
+            "udpsock:send($1)"
+        ],
+        "description": "Sends data on the current UDP or datagram unix domain socket object."
+    },
+    "udpsock.setpeername": {
+        "prefix": "udpsock.setpeername",
+        "body": [
+            "udpsock:setpeername($1, $2)"
+        ],
+        "description": "Attempts to connect a UDP socket object to a remote server or to a datagram unix domain socket file. Because the datagram protocol is actually connection-less, this method does not really establish a \"connection\", but only just set the name of the remote peer for subsequent read/write operations."
+    },
+    "udpsock.settimeout": {
+        "prefix": "udpsock.settimeout",
+        "body": [
+            "udpsock:settimeout($1)"
+        ],
+        "description": "Set the timeout value in milliseconds for subsequent socket operations (like receive)."
+    }
+}
